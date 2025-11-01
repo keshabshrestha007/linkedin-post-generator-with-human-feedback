@@ -17,7 +17,7 @@ This repository contains a Streamlit application that generates professional Lin
 
 ## Requirements
 
-- Python 3.12
+- Python 3.13
 - Virtual environment recommended
 - `GROQ_API_KEY` — required to use Groq's ChatGroq. Put it in a `.env` file or export it in your environment.
 
@@ -28,7 +28,7 @@ This repository contains a Streamlit application that generates professional Lin
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/keshabshrestha 007/linkedin-post-generator-with-human-feedback.git
+git clone https://github.com/keshabshrestha007/linkedin-post-generator-with-human-feedback.git
 
 ```
 ```bash
