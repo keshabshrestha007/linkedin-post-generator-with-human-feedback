@@ -28,11 +28,11 @@ This repository contains a Streamlit application that generates professional Lin
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/linkedin-post-generator-with-user-feedback.git
+git clone https://github.com/keshabshrestha 007/linkedin-post-generator-with-human-feedback.git
 
 ```
 ```bash
-cd linkedin-post-generator-with-user-feedback
+cd linkedin-post-generator-with-human-feedback
 ```
 
 2️⃣ Create and activate a virtual environment
