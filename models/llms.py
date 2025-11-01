@@ -6,7 +6,7 @@ import streamlit as st
 # Load environment variables
 load_dotenv()
 try:
-    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+    api_key = os.getenv("GROQ_API_KEY")
 except:
     raise ValueError("GROQ_API_KEY not found in environment variables.")
 """
@@ -27,5 +27,5 @@ def create_llm(temperature:float=0.3):
     return ChatGroq(
         model="llama-3.3-70b-versatile",
         temperature=temperature,
-        api_key=GROQ_API_KEY
+        api_key=api_key
     )
